@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--占位-->
+    <div id="root"></div>
+    <!--占位-->
+    <input id="email" type="email" />
+
+</body>
+
+<script src="app.js"></script>
+<script>
+    //演示js中调用kotlin，采用“<moduleName>. fully-qualified names”
+    console.log(app.com.example.app.sayHello())
+    app.com.example.app.fillEmail()
+    app.com.example.app.replaceDiv("root")  
+</script>
+
+
+</html>
